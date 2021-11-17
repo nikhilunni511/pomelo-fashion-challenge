@@ -22,7 +22,6 @@
 	for (i = 0; i < list.length; i += 1) {
 		node = list[i];
 		const parentId = node.parent_id;
-		delete node.parent_id;
 		if (!!parentId) {
 			list[map[parentId]].children.push(node);
 		} else {
