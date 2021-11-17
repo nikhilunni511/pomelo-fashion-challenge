@@ -1,4 +1,4 @@
-# Getir challenge
+# Tech challenge
 
 
 
